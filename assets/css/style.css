@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+
+    transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -webkit-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+
+}
+
+body:hover{
+    background-color: black;
+}
+
+div h1 {
+    font-family: "Playfair Display", serif;
+    color: #b7a57a;
+    font-size: 100px;
+    text-align: center;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    top:50%;
+    width: 100%;
+
+}
+
+div h2{
+    font-family: "Playfair Display", serif;
+    color: #b7a57a;
+    font-size: 20px;
+    text-align: center;
+    left: 65px;
+    line-height: 350px;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+}
+
+
